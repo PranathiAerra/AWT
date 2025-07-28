@@ -1,64 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
- <head >
-  <title>CVR COLLEGE OF ENGINEERING</title>
-  <style>
-    body {
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
-    img {
-      margin-top: 20px;
-      width: 150px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #000080;
-      font-weight: bold;
-    }
-body{
-background-color:CornSilk;
-}
-iframe {
-      width: 100%;
-      height: 500px;
-      border: 1px solid #ccc;
-    }
-  </style>
- </head>
- <body>
-  <center><h1><b>CVR COLLEGE OF ENGINEERING</b></h1>
- <p><b>In Pursuit of Excellence</b></p>
-<p><b>An Autonomous Institution</b></p></center>
-   <img src="https://cvr.ac.in/cse/logo.jpg" >
-<center>
-  <nav>
-<a href="home.html" target="myframe">Home</a>
-<a href="Login.html" target="myframe">Login</a> 
-<a href="Registration.html" target="myframe">Registration</a>
-<a href="Cataloge.html" target="myframe">Cataloge</a>
-<a href="Cart.html" target="myframe">Cart</a>
+<head>
+  <meta charset="UTF-8">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-</nav>
-</center>
-<table width="100%">
-  <tr>
-    <td width="150" valign="top">
-      <nav>
-        <a href="cse.html" target="myframe">CSE</a><br><br>
-        <a href="AID.html" target="myframe">AID</a><br><br>
-        <a href="AIM.html" target="myframe">AIM</a><br><br>
-        <a href="ECE.html" target="myframe">ECE</a><br><br>
-      </nav>
-    </td>
-    <td valign="top">
-      <iframe name="myframe" src="home.html"></iframe>
-    </td>
-  </tr>
-</table>
+  <div class="calculator">
+    <h2>Scientific Calculator</h2>
+    <input type="text" readonly placeholder="0">
 
-<iframe name="myframe" src="home.html"></iframe>
+    <div class="buttons">
+      <button>sin</button>
+      <button>cos</button>
+      <button>tan</button>
+      <button>√</button>
 
- </body>
+      <button>π</button>
+      <button>log</button>
+      <button>ln</button>
+      <button>^</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>÷</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>×</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>−</button>
+
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+      <button>+</button>
+
+      <button class="clear">C</button>
+    </div>
+  </div>
+
+</body>
 </html>
