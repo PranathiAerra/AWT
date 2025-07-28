@@ -1,0 +1,56 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?semt=ais_hybrid&w=740&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center container using Grid for inner layout */
+.container {
+  display: grid;
+  gap: 30px;
+  text-align: center;
+}
+
+/* Header styling */
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px 40px;
+  width:400px;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+/* Navigation buttons using Flexbox */
+.nav-bar {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ffffffcc;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #333;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+}

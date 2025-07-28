@@ -1,79 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
+  <meta charset="UTF-8">
   <title>Menu</title>
- </head>
- <style>
-    body {
-      background-size:cover;
-      text-align:center;
-      font-family: Arial, sans-serif;
-	  font-color:white;
-    }
-	  ul {
-      list-style-type: none;
-      padding: 0;
-    }
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <h1>OUR MENU</h1>
 
-    li {
-      font-size:1.2em;
-      margin:10px 0;
-    }
-	 .starter-img {
-      float: left;
-      width: 300px;
-      height: 250px;
-      margin-right: 20px;
-      border-radius: 10px;
-    }
-	section
-	{
-	padding:40px;
-	background-color:LightGray;
-	border-radius:10px;
-	margin:20px;
-	}
-	section h2 {
-   text-align: left;
-     }
-	
- </style>
- <body >
- <h1>OUR MENU</h1>
- <section>
- <h2>-----------Starters----------</h2>
- <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="https://img.freepik.com/free-photo/top-view-plate-with-boiled-eggs-vegetables_23-2148482430.jpg?semt=ais_hybrid&w=740" alt="Asian Chicken" style="width: 300px; height: 250px; border-radius: 10px;">
-  <ul style="text-align: left;">
- <ul>
-  <li>Asian Chicken---Rs.299</li>
-  <li>Veggie Salad---Rs.299</li>
-  <li>Fish Ceaser---Rs.299</li>
-  <li>Asian Chicken---Rs.299</li>
-  </ul>
-  </section>
   <section>
-   <div style="text-align: left;">
-  <h2>----------- Main Course ------------    </h2>
-  <div style="display: flex; align-items: flex-start; gap: 20px;">
-    <img src="https://j6e2i8c9.delivery.rocketcdn.me/wp-content/uploads/2020/09/Chicken-Biryani-Recipe-01-1.jpg" alt="Pulao" style="width: 300px; height: 250px; border-radius: 10px;">
-  <ul>
-   <li>Biryani--- Rs.499</li>
-   <li>Hyderabad Biryani---Rs.300</li>
-   <li>Veg Thali---Rs.299</li>
-   <li>Pulao---Rs.299</li>
-   </ul>
-   </section>
-   <section>
-   <div style="text-align: left;">
-   <h2>----------Desserts------------</h2>
-   <div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="Brownie Pudding" style="width: 300px; height: 250px; border-radius: 10px;">
-   <ul>
-    <li>Kunafa--- Rs.399</li>
-	<li>IceCream---Rs.100</li>
-	<li>Brownie Pudding---Rs.299</li>
-    </ul>
-	</section>
- </body>
+    <h2>Starters</h2>
+    <div class="menu-item">
+      <img src="https://img.freepik.com/free-photo/top-view-plate-with-boiled-eggs-vegetables_23-2148482430.jpg?semt=ais_hybrid&w=740" alt="Asian Chicken">
+      <ul>
+        <li>Asian Chicken — Rs.299</li>
+        <li>Veggie Salad — Rs.299</li>
+        <li>Fish Caesar — Rs.299</li>
+        <li>Paneer Tikka — Rs.299</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Main Course</h2>
+    <div class="menu-item">
+      <img src="https://j6e2i8c9.delivery.rocketcdn.me/wp-content/uploads/2020/09/Chicken-Biryani-Recipe-01-1.jpg" alt="Pulao">
+      <ul>
+        <li>Biryani — Rs.499</li>
+        <li>Hyderabadi Biryani — Rs.300</li>
+        <li>Veg Thali — Rs.299</li>
+        <li>Pulao — Rs.299</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Desserts</h2>
+    <div class="menu-item">
+      <img src="https://t3.ftcdn.net/jpg/00/96/19/86/360_F_96198695_oyJg0I7ELpXI6608FI942PX9LlRRyEnd.jpg" alt="Brownie Pudding">
+      <ul>
+        <li>Kunafa — Rs.399</li>
+        <li>Ice Cream — Rs.100</li>
+        <li>Brownie Pudding — Rs.299</li>
+      </ul>
+    </div>
+  </section>
+</body>
 </html>
