@@ -1,56 +1,75 @@
 body {
-  background-image: url(https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?semt=ais_hybrid&w=740&q=80);
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffe6f2, #ffffff);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-/* Center container using Grid for inner layout */
-.container {
-  display: grid;
-  gap: 30px;
+.calculator {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  transition: all 0.4s ease-in-out;
+}
+
+.calculator h2 {
   text-align: center;
-}
-
-/* Header styling */
-header {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 5px solid black;
-  border-radius: 10px;
-  padding: 20px 40px;
-  width:400px;
-  margin: 0 auto;
-}
-
-header h1 {
-  color: white;
-  margin: 0;
-}
-
-/* Navigation buttons using Flexbox */
-.nav-bar {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  padding: 10px 20px;
-  background-color: #ffffffcc;
   color: black;
-  font-weight: bold;
-  border: 2px solid #333;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
 }
 
-.nav-bar a:hover {
-  background-color: #ddd;
+.calculator input {
+  width: 100%;
+  height: 55px;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+    box-sizing: border-box;
+  margin-bottom: 15px;
+  background-color: white;
 }
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+}
+
+button.clear {
+  grid-column: span 4;
+  background-color: black;
+  color: white;
+}
+.calculator input::placeholder {
+  color: black;
+  opacity: 1; /* Ensures full opacity */
+}
+
+.calculator input {
+  background-color: white;
+  color: black;
+}
+
